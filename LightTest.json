@@ -1,6 +1,5 @@
 {
-  "@context": "http://iiif.io/api/presentation/4/context.json",
-  "id": "https://example.org/to13swr5ws-mlwptp83",
+  "id": "https://example.org/iiif/3d/model_origin.json",
   "type": "Manifest",
   "items": [
     {
