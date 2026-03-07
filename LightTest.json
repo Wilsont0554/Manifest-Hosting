@@ -45,7 +45,7 @@
                     "en": []
                   },
                   "intensity": {
-                    "type": "Quantity",
+                    "type": "Value",
                     "quantityValue": "0.7",
                     "unit": "relative"
                   },
