@@ -46,7 +46,7 @@
                   },
                   "intensity": {
                     "type": "Value",
-                    "quantityValue": "0.7",
+                    "value": "0.7",
                     "unit": "relative"
                   },
                   "color": "#40edfb"
