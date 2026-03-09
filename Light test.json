@@ -1,10 +1,10 @@
 {
-  "id": "https://example.org/to13swr5ws-mlwptp83",
+  "id": "https://example.org/iiif/3d/model_origin.json",
   "type": "Manifest",
   "items": [
     {
       "id": "https://example.org/iiif/scene1/page/p1/1",
-      "type": "scene",
+      "type": "Scene",
       "items": [
         {
           "id": "https://example.org/iiif/scene1/page/p1/1",
