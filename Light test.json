@@ -5,7 +5,7 @@
     {
       "id": "https://example.org/to13swr5ws-mlwptp83",
       "type": "scene",
-      "item": [
+      "items": [
         {
           "id": "https://example.org/iiif/scene1/page/p1/1",
           "type": "AnnotationPage",
