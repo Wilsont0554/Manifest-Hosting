@@ -33,9 +33,9 @@
               "body": {
                 "id": "https://example.org/iiif/light/1",
                 "type": "AmbientLight",
-                "color": "#278a02",
+                "color": "#45ff00",
                 "intensity": {
-                  "type": "Quantity",
+                  "type": "Value",
                   "quantityValue": 0.5,
                   "unit": "relative"
                 }
