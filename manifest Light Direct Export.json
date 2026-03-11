@@ -33,7 +33,7 @@
               "body": {
                 "id": "https://example.org/iiif/light/1",
                 "type": "AmbientLight",
-                "color": "#f294fa",
+                "color": "#00FF00",
                 "intensity": {
                   "type": "Quantity",
                   "quantityValue": 0.9,
