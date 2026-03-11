@@ -4,7 +4,7 @@
   "items": [
     {
       "id": "https://example.org/iiif/scene1",
-      "type": "Scene",
+      "type": "scene",
       "items": [
         {
           "id": "https://example.org/iiif/scene1/page/p1/1",
@@ -24,7 +24,7 @@
               }
             },
             {
-              "id": "https://example.org/iiif/3d/anno2",
+              "id": "https://example.org/iiif/3d/anno1",
               "type": "Annotation",
               "motivation": [
                 "painting"
@@ -33,7 +33,7 @@
               "body": {
                 "id": "https://example.org/iiif/light/1",
                 "type": "AmbientLight",
-                "color": "#00FF00",
+                "color": "#f294fa",
                 "intensity": {
                   "type": "Quantity",
                   "quantityValue": 0.9,
