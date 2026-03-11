@@ -4,7 +4,7 @@
   "items": [
     {
       "id": "https://example.org/iiif/scene1/page/p1/1",
-      "type": "Scene",
+      "type": "scene",
       "items": [
         {
           "id": "https://example.org/iiif/scene1/page/p1/1",
@@ -17,6 +17,9 @@
                 "painting"
               ],
               "target": "https://example.org/iiif/scene1/page/p1/1",
+              "label": {
+                "en": []
+              },
               "body": {
                 "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
                 "type": "Model",
@@ -30,6 +33,9 @@
                 "painting"
               ],
               "target": "https://example.org/iiif/scene1/page/p1/1",
+              "label": {
+                "en": []
+              },
               "body": {
                 "id": "https://example.org/iiif/light/1",
                 "type": "AmbientLight",
