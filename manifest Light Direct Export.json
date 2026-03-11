@@ -18,7 +18,7 @@
               ],
               "target": "https://example.org/iiif/scene1",
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
@@ -35,7 +35,7 @@
                 "type": "AmbientLight",
                 "color": "#45ff00",
                 "intensity": {
-                  "type": "Value",
+                  "type": "Quantity",
                   "quantityValue": 0.5,
                   "unit": "relative"
                 }
