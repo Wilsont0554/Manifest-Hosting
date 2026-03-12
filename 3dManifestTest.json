@@ -23,15 +23,17 @@
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
-              "target": "https://example.org/iiif/scene1",
+              "target": {
+              "id": "https://example.org/iiif/scene1",
               "selector": [
                   {
                     "type": "PointSelector",
-                    "x": -1.0,
+                    "x": -20.0,
                     "y": 0.0,
-                    "z": 1.0
+                    "z": 10.0
                   }
-                ]
+                ] 
+              }
             }
           ]
         }
