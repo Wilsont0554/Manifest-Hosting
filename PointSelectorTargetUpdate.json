@@ -30,9 +30,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 50,
+                    "x": 5,
                     "y": 0,
-                    "z": -25
+                    "z": -2
                   }
                 ]
               },
