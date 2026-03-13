@@ -22,6 +22,73 @@
               "target": {
                 "type": "Scene",
                 "selector": {
+                  "type": "PointSelector",
+                  "x": 10,
+                  "y": 0,
+                  "z": -5
+                },
+                "id": "https://example.org/iiif/scene1"
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "Scene",
+                "selector": {
+                  "type": "PointSelector",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "id": "https://example.org/iiif/scene1"
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}{
+  "id": "https://example.org/iiif/3d/model_origin.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "Scene",
+                "selector": {
                   "type": "Point Selector",
                   "x": 10,
                   "y": 0,
