@@ -27,15 +27,17 @@
                     "type": "Scene"
                   }
                 ],
-                "selector": {
-                  "type": "PointSelector",
-                  "x": 10,
-                  "y": 0,
-                  "z": -5
-                }
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 50,
+                    "y": 0,
+                    "z": -25
+                  }
+                ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb ",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
@@ -57,15 +59,17 @@
                     "type": "Scene"
                   }
                 ],
-                "selector": {
-                  "type": "PointSelector",
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb ",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
