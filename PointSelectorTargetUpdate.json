@@ -1,0 +1,46 @@
+{
+  "id": "https://example.org/to13swr5ws-mlwptp83",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://example.org/to13swr5ws-mlwptp83",
+      "type": "Default Type",
+      "item": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "Scene",
+                "selector": {
+                  "type": "Scene",
+                  "x": 1,
+                  "y": 0,
+                  "z": -1
+                },
+                "id": "https://example.org/iiif/scene1"
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "type": "Model",
+                "format": "model/gltf-binary",
+                "label": {
+                  "en": []
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
