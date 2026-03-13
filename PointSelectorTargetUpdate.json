@@ -23,9 +23,9 @@
                 "type": "Scene",
                 "selector": {
                   "type": "Point Selector",
-                  "x": 0,
+                  "x": 10,
                   "y": 0,
-                  "z": 0
+                  "z": -5
                 },
                 "id": "https://example.org/iiif/scene1"
               },
