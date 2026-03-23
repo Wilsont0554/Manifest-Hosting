@@ -1,0 +1,92 @@
+{
+  "id": "https://example.org/iiif/3d/model_origin.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1,
+                    "y": 1,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb ",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              }
+            },
+            {
+              "id": "http://example.org/annotations/anno3",
+              "type": "Annotation", 
+              "created": "2015-01-31T12:03:45Z",
+              "body": {
+                "type": "TextualBody",
+                "value": "I like this page!"
+              },
+              "target": "http://www.example.com/index.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
