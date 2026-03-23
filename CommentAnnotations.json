@@ -69,12 +69,14 @@
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
             }
-          ],
+          ]
+        },
+        {
           "annotations": [
             {
               "id": "https://example.org/iiif/scene1/page/p2/1",
