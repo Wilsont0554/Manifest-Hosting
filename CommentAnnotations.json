@@ -37,7 +37,7 @@
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
@@ -84,7 +84,7 @@
                 "type": "TextualBody",
                 "value": "I like this page!"
               },
-              "target": "http://www.example.com/index.html"
+              "target": "https://example.org/iiif/scene1"
             }
           ]
         }
