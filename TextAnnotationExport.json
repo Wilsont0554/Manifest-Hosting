@@ -74,7 +74,7 @@
                 "color": "#9999fd",
                 "intensity": {
                   "type": "Value",
-                  "quantityValue": 0.8,
+                  "value": 0.8,
                   "unit": "relative"
                 }
               }
