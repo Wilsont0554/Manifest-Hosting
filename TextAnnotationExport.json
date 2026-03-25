@@ -30,14 +30,14 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 1,
-                    "y": -1,
-                    "z": 2
+                    "x": 2,
+                    "y": 1,
+                    "z": -1
                   }
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
@@ -71,7 +71,7 @@
               "body": {
                 "id": "https://example.org/iiif/light/1",
                 "type": "AmbientLight",
-                "color": "#9999fd",
+                "color": "#f8db54",
                 "intensity": {
                   "type": "Value",
                   "value": 0.8,
@@ -107,13 +107,13 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 1,
+                    "x": -1,
                     "y": 2,
-                    "z": -2
+                    "z": 1
                   }
                 ]
               },
-              "bodyValue": "TEST2"
+              "bodyValue": "This will work"
             }
           ]
         }
