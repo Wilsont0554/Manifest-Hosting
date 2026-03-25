@@ -37,9 +37,14 @@
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
-                "type": "Model",
-                "format": "model/gltf-binary"
+                "id": "https://example.org/iiif/light/1",
+                "type": "AmbientLight",
+                "color": "#96fcdd",
+                "intensity": {
+                  "type": "Quantity",
+                  "quantityValue": 0.7,
+                  "unit": "relative"
+                }
               }
             },
             {
@@ -62,16 +67,16 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 2,
+                    "y": -2,
+                    "z": 1
                   }
                 ]
               },
               "body": {
-                "id": "https://example.org/iiif/light/1",
-                "type": "AmbientLight",
-                "color": "#9eff7d"
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb ",
+                "type": "Model",
+                "format": "model/gltf-binary"
               }
             }
           ]
@@ -107,8 +112,35 @@
                     "z": 0
                   }
                 ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno3",
+              "type": "Annotation",
+              "motivation": [
+                "commenting"
+              ],
+              "label": {
+                "en": []
               },
-              "bodyValue": "Test annotation with color"
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": -1,
+                    "y": -1,
+                    "z": 2
+                  }
+                ]
+              },
+              "bodyValue": "TESTING"
             }
           ]
         }
