@@ -30,49 +30,20 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": -1,
-                    "y": 3,
-                    "z": 2
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
             },
             {
-              "id": "https://example.org/iiif/3d/anno2",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "label": {
-                "en": []
-              },
-              "target": {
-                "type": "SpecificResource",
-                "source": [
-                  {
-                    "id": "https://example.org/iiif/scene1",
-                    "type": "Scene"
-                  }
-                ]
-              },
-              "body": {
-                "id": "https://example.org/iiif/light/1",
-                "type": "AmbientLight",
-                "intensity": {
-                  "type": "Quantity",
-                  "quantityValue": 0.75,
-                  "unit": "relative"
-                },
-                "color": "#69f3e6"
-              }
-            },
-            {
-              "id": "https://example.org/iiif/3d/anno3",
+              "id": "https://example.org/iiif/3d/anno1",
               "type": "Annotation",
               "motivation": [
                 "painting"
@@ -91,16 +62,16 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": -2,
-                    "y": 3,
-                    "z": 3
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
-                "type": "Model",
-                "format": "model/gltf-binary"
+                "id": "https://example.org/iiif/light/1",
+                "type": "AmbientLight",
+                "color": "#9eff7d"
               }
             }
           ]
@@ -112,7 +83,7 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/3d/anno1",
+              "id": "https://example.org/iiif/3d/anno2",
               "type": "Annotation",
               "motivation": [
                 "commenting"
@@ -131,13 +102,13 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 3,
-                    "y": 5,
-                    "z": 1
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 ]
               },
-              "bodyValue": "This is a test annotation"
+              "bodyValue": "Test annotation with color"
             }
           ]
         }
