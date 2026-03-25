@@ -30,21 +30,16 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": 1,
+                    "y": -1,
+                    "z": 2
                   }
                 ]
               },
               "body": {
-                "id": "https://example.org/iiif/light/1",
-                "type": "AmbientLight",
-                "color": "#96fcdd",
-                "intensity": {
-                  "type": "Quantity",
-                  "quantityValue": 0.7,
-                  "unit": "relative"
-                }
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
               }
             },
             {
@@ -67,16 +62,21 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 2,
-                    "y": -2,
-                    "z": 1
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
                   }
                 ]
               },
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb ",
-                "type": "Model",
-                "format": "model/gltf-binary"
+                "id": "https://example.org/iiif/light/1",
+                "type": "AmbientLight",
+                "color": "#9999fd",
+                "intensity": {
+                  "type": "Quantity",
+                  "quantityValue": 0.8,
+                  "unit": "relative"
+                }
               }
             }
           ]
@@ -107,40 +107,13 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                  }
-                ]
-              }
-            },
-            {
-              "id": "https://example.org/iiif/3d/anno3",
-              "type": "Annotation",
-              "motivation": [
-                "commenting"
-              ],
-              "label": {
-                "en": []
-              },
-              "target": {
-                "type": "SpecificResource",
-                "source": [
-                  {
-                    "id": "https://example.org/iiif/scene1",
-                    "type": "Scene"
-                  }
-                ],
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -1,
-                    "y": -1,
-                    "z": 2
+                    "x": 1,
+                    "y": 2,
+                    "z": -2
                   }
                 ]
               },
-              "bodyValue": "TESTING"
+              "bodyValue": "TEST2"
             }
           ]
         }
