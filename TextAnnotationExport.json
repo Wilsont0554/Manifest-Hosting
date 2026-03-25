@@ -73,7 +73,7 @@
                 "type": "AmbientLight",
                 "color": "#9999fd",
                 "intensity": {
-                  "type": "Quantity",
+                  "type": "Value",
                   "quantityValue": 0.8,
                   "unit": "relative"
                 }
