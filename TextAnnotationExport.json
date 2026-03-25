@@ -41,6 +41,75 @@
                 "type": "Model",
                 "format": "model/gltf-binary"
               }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://example.org/iiif/light/1",
+                "type": "AmbientLight",
+                "intensity": {
+                  "type": "Quantity",
+                  "quantityValue": 0.75,
+                  "unit": "relative"
+                },
+                "color": "#69f3e6"
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno3",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": -2,
+                    "y": 3,
+                    "z": 3
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              }
             }
           ]
         }
@@ -70,8 +139,8 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 5,
-                    "y": 10,
+                    "x": 3,
+                    "y": 5,
                     "z": 1
                   }
                 ]
