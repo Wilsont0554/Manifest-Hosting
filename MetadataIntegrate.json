@@ -1,0 +1,144 @@
+{
+  "id": "https://example.org/iiif/3d/model_origin.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno0",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1,
+                    "y": 1,
+                    "z": 0.1
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "type": "Model",
+                "format": "model/gltf-binary",
+                "label": {
+                  "en": []
+                },
+                "metadata": [
+                  {
+                    "label": {
+                      "en": [
+                        "Title1"
+                      ]
+                    },
+                    "value": {
+                      "en": [
+                        "Value1"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://example.org/iiif/light/1",
+                "type": "AmbientLight",
+                "label": {
+                  "en": []
+                },
+                "metadata": [],
+                "color": "#f2f975",
+                "intensity": {
+                  "type": "Value",
+                  "value": 0.25,
+                  "unit": "relative"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": [
+                "commenting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1,
+                    "y": 0.5,
+                    "z": 0.1
+                  }
+                ]
+              },
+              "bodyValue": "Text Annotation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
