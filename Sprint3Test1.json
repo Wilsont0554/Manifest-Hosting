@@ -1,0 +1,294 @@
+{
+  "id": "https://example.org/iiif/3d/model_origin.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno0",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_mandible.glb",
+                "type": "Model",
+                "format": "model/gltf-binary",
+                "label": {
+                  "en": []
+                },
+                "metadata": [
+                  {
+                    "label": {
+                      "en": [
+                        "Whale Skeleton"
+                      ]
+                    },
+                    "value": {
+                      "en": [
+                        "Mandible"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb ",
+                "type": "Model",
+                "format": "model/gltf-binary",
+                "label": {
+                  "en": []
+                },
+                "metadata": [
+                  {
+                    "label": {
+                      "en": [
+                        "Whale Skeleton"
+                      ]
+                    },
+                    "value": {
+                      "en": [
+                        "Skull"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://example.org/iiif/light/1",
+                "type": "AmbientLight",
+                "label": {
+                  "en": []
+                },
+                "metadata": [],
+                "color": "#ddc259",
+                "intensity": {
+                  "type": "Value",
+                  "value": 0.25,
+                  "unit": "relative"
+                }
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno3",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://example.org/iiif/light/1",
+                "type": "SpotLight",
+                "label": {
+                  "en": []
+                },
+                "metadata": [],
+                "angle": 10
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno6",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "body": {
+                "type": "PerspectiveCamera",
+                "label": {
+                  "en": []
+                },
+                "id": "https://example.org/iiif/3d/cameras/1",
+                "fieldOfView": 50,
+                "near": 0,
+                "far": 0
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno4",
+              "type": "Annotation",
+              "motivation": [
+                "commenting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  }
+                ]
+              },
+              "bodyValue": "Whale Canium"
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno5",
+              "type": "Annotation",
+              "motivation": [
+                "commenting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  }
+                ]
+              },
+              "bodyValue": "Whale Cranium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
