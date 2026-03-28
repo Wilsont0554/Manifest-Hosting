@@ -211,9 +211,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": -1.8,
+                    "x": -0.8,
                     "y": 1,
-                    "z": 5
+                    "z": 3
                   }
                 ]
               },
