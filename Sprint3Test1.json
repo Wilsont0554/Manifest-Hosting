@@ -225,7 +225,7 @@
                 "id": "https://example.org/iiif/3d/cameras/1",
                 "fieldOfView": 50,
                 "near": 0,
-                "far": 0
+                "far": 10000
               }
             }
           ]
