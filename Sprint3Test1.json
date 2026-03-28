@@ -169,9 +169,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": -2,
-                    "y": 3,
-                    "z": 2
+                    "x": -1,
+                    "y": 0.2,
+                    "z": 1
                   }
                 ]
               },
@@ -211,9 +211,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": -1,
-                    "y": 1,
-                    "z": 1
+                    "x": 0.2,
+                    "y": 0.5,
+                    "z": 0.1
                   }
                 ]
               },
@@ -225,7 +225,7 @@
                 "id": "https://example.org/iiif/3d/cameras/1",
                 "fieldOfView": 50,
                 "near": 0,
-                "far": 10000
+                "far": 10
               }
             }
           ]
