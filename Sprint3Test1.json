@@ -79,9 +79,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.2,
+                    "x": 0,
                     "y": 0.2,
-                    "z": 0.2
+                    "z": 0
                   }
                 ]
               },
@@ -101,7 +101,7 @@
                     },
                     "value": {
                       "en": [
-                        "Skull"
+                        "Cranium"
                       ]
                     }
                   }
@@ -141,10 +141,10 @@
                   "en": []
                 },
                 "metadata": [],
-                "color": "#ddc259",
+                "color": "#f8abf8",
                 "intensity": {
                   "type": "Value",
-                  "value": 0.25,
+                  "value": 0.75,
                   "unit": "relative"
                 }
               }
@@ -169,9 +169,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": -2,
+                    "y": 3,
+                    "z": 2
                   }
                 ]
               },
@@ -182,11 +182,17 @@
                   "en": []
                 },
                 "metadata": [],
-                "angle": 10
+                "color": "#8df4fa",
+                "angle": 45,
+                "intensity": {
+                  "type": "Value",
+                  "value": 0.8,
+                  "unit": "relative"
+                }
               }
             },
             {
-              "id": "https://example.org/iiif/3d/anno6",
+              "id": "https://example.org/iiif/3d/anno4",
               "type": "Annotation",
               "motivation": [
                 "painting"
@@ -205,9 +211,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "x": -5,
+                    "y": 2,
+                    "z": 2
                   }
                 ]
               },
@@ -231,34 +237,6 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/3d/anno4",
-              "type": "Annotation",
-              "motivation": [
-                "commenting"
-              ],
-              "label": {
-                "en": []
-              },
-              "target": {
-                "type": "SpecificResource",
-                "source": [
-                  {
-                    "id": "https://example.org/iiif/scene1",
-                    "type": "Scene"
-                  }
-                ],
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 0.2,
-                    "y": 0.2,
-                    "z": 0.2
-                  }
-                ]
-              },
-              "bodyValue": "Whale Canium"
-            },
-            {
               "id": "https://example.org/iiif/3d/anno5",
               "type": "Annotation",
               "motivation": [
@@ -278,13 +256,41 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.2,
+                    "x": 0,
                     "y": 0.2,
-                    "z": 0.2
+                    "z": 0
                   }
                 ]
               },
-              "bodyValue": "Whale Cranium"
+              "bodyValue": "Cranium"
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno6",
+              "type": "Annotation",
+              "motivation": [
+                "commenting"
+              ],
+              "label": {
+                "en": []
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              },
+              "bodyValue": "Mandible"
             }
           ]
         }
