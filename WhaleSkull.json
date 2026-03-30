@@ -11,87 +11,80 @@
     {
       "id": "https://example.org/iiif/manifest/1/scene/1",
       "type": "Scene",
-      "items": []
-    }
-  ],
-  "annotations": [
-    {
-      "id": "https://example.org/iiif/manifest/1/scene/1/annotations/1",
-      "type": "AnnotationPage",
       "items": [
         {
-          "id": "https://example.org/iiif/manifest/1/scene/1/anno/1",
-          "type": "Annotation",
-          "motivation": [
-            "commenting"
-          ],
-          "body": {
-            "id": "https://example.org/iiif/manifest/1/scene/1/anno/1/body",
-            "type": "TextualBody",
-            "value": "test",
-            "format": "text/plain",
-            "language": "en",
-            "purpose": "commenting",
-            "position": {
-              "id": "https://example.org/iiif/manifest/1/scene/1/anno/1/position",
-              "type": "SpecificResource",
-              "source": [
-                {
-                  "id": "https://example.org/iiif/manifest/1/scene/1",
-                  "type": "Scene"
-                }
+          "id": "https://example.org/iiif/manifest/1/scene/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/manifest/1/scene/1/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "commenting"
               ],
-              "selector": [
-                {
-                  "type": "PointSelector",
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              ]
-            }
-          },
-          "target": {
-            "id": "https://example.org/iiif/manifest/1/scene/1",
-            "type": "Scene"
-          }
-        },
-        {
-          "id": "https://example.org/iiif/manifest/1/scene/1/anno/2",
-          "type": "Annotation",
-          "motivation": [
-            "commenting"
-          ],
-          "body": {
-            "id": "https://example.org/iiif/manifest/1/scene/1/anno/2/body",
-            "type": "TextualBody",
-            "value": "test2",
-            "format": "text/plain",
-            "language": "en",
-            "purpose": "commenting",
-            "position": {
-              "id": "https://example.org/iiif/manifest/1/scene/1/anno/2/position",
-              "type": "SpecificResource",
-              "source": [
-                {
-                  "id": "https://example.org/iiif/manifest/1/scene/1",
-                  "type": "Scene"
-                }
+              "body": {
+                "id": "https://example.org/iiif/manifest/1/scene/1/anno/1/body",
+                "type": "TextualBody",
+                "value": "TEST",
+                "format": "text/plain",
+                "language": "en",
+                "purpose": "commenting"
+              },
+              "target": {
+                "id": "https://example.org/iiif/manifest/1/scene/1/anno/1/position",
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/manifest/1/scene/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1,
+                    "y": 2,
+                    "z": -3
+                  }
+                ]
+              },
+              "label": {
+                "en": [
+                  "TEST"
+                ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/manifest/1/scene/1/anno/2",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
               ],
-              "selector": [
-                {
-                  "type": "PointSelector",
-                  "x": 1,
-                  "y": 1,
-                  "z": 1
-                }
-              ]
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/whale/whale_cranium.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "id": "https://example.org/iiif/manifest/1/scene/1/anno/2/target",
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/manifest/1/scene/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1,
+                    "y": 2,
+                    "z": -3
+                  }
+                ]
+              }
             }
-          },
-          "target": {
-            "id": "https://example.org/iiif/manifest/1/scene/1",
-            "type": "Scene"
-          }
+          ]
         }
       ]
     }
