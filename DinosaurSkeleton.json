@@ -23,7 +23,7 @@
                 "painting"
               ],
               "body": {
-                "id": "https://3d-api.si.edu/content/document/3d_package:d8c62d28-4ebc-11ea-b77f-2e728ce88125/t-rex-p1-75k-2048-web-medium.glb",
+                "id": "https://3d-api.si.edu/content/document/3d_package:d8c62d28-4ebc-11ea-b77f-2e728ce88125/t-rex-p4-75k-2048-web-medium.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
@@ -41,10 +41,10 @@
               "body": {
                 "id": "https://example.org/iiif/manifest/1/scene/1/lights/1",
                 "type": "PointLight",
-                "color": "#e7fbfe",
+                "color": "#ff4040",
                 "intensity": {
                   "type": "Value",
-                  "value": 0.5,
+                  "value": 1,
                   "unit": "relative"
                 }
               },
@@ -60,9 +60,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 1,
-                    "y": 3,
-                    "z": 1
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
                   }
                 ]
               }
@@ -83,7 +83,7 @@
                   "unit": "relative"
                 },
                 "lookAt": {
-                  "id": "https://3d-api.si.edu/content/document/3d_package:d8c62d28-4ebc-11ea-b77f-2e728ce88125/t-rex-p1-75k-2048-web-medium.glb",
+                  "id": "https://3d-api.si.edu/content/document/3d_package:d8c62d28-4ebc-11ea-b77f-2e728ce88125/t-rex-p4-75k-2048-web-medium.glb",
                   "type": "Annotation"
                 }
               },
