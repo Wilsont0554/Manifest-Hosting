@@ -1,0 +1,80 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://example.org/iiif/manifest/1",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Astronaut Lighting Test"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/manifest/1/scene/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://example.org/iiif/manifest/1/scene/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/manifest/1/scene/1/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "id": "https://example.org/iiif/manifest/1/scene/1",
+                "type": "Scene"
+              }
+            },
+            {
+              "id": "https://example.org/iiif/manifest/1/scene/1/anno/2",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://example.org/iiif/manifest/1/scene/1/lights/1",
+                "type": "PointLight",
+                "color": "#84f3f9",
+                "intensity": {
+                  "type": "Value",
+                  "value": 0.75,
+                  "unit": "relative"
+                }
+              },
+              "target": {
+                "id": "https://example.org/iiif/manifest/1/scene/1/anno/2/target",
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/manifest/1/scene/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 3,
+                    "y": 5,
+                    "z": 2
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "en": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus odio eget ante pretium accumsan ullamcorper sagittis ante. Donec tristique tortor tempus convallis feugiat. Aenean et tortor vehicula, ultrices nibh in, dapibus libero. Praesent non nibh vehicula, congue quam ac, egestas lorem. Cras varius elementum metus, ac bibendum odio auctor egestas. Donec vehicula mauris ut massa pretium, ut pretium tortor maximus. Morbi vel urna volutpat, volutpat sem nec, consectetur mauris. "
+    ]
+  }
+}
