@@ -41,7 +41,7 @@
               "body": {
                 "id": "https://example.org/iiif/manifest/1/scene/1/lights/1",
                 "type": "PointLight",
-                "color": "#ff4040",
+                "color": "#4540ff",
                 "intensity": {
                   "type": "Value",
                   "value": 1,
@@ -60,9 +60,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.5,
-                    "y": 0.5,
-                    "z": 0.5
+                    "x": 10,
+                    "y": 10,
+                    "z": 10
                   }
                 ]
               }
